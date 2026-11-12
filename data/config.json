@@ -1,0 +1,46 @@
+{
+  "forbiddenTerms": [
+    "Koha",
+    "Alma",
+    "Absys",
+    "Syracuse",
+    "PMB",
+    "Biblix",
+    "Orphée",
+    "Aleph",
+    "Evergreen"
+  ],
+  "contributionChannel": null,
+  "tools": [
+    {
+      "id": "notice-exploder",
+      "title": "Notice Exploder",
+      "description": "Explorer la structure d’une notice.",
+      "url": null
+    },
+    {
+      "id": "unimarc-explorer",
+      "title": "UNIMARC Explorer",
+      "description": "Explorer les zones et sous-champs UNIMARC.",
+      "url": null
+    },
+    {
+      "id": "labo-sru",
+      "title": "Labo SRU",
+      "description": "Interroger un catalogue à distance.",
+      "url": null
+    },
+    {
+      "id": "identifiants",
+      "title": "Outils identifiants",
+      "description": "Comprendre et analyser les identifiants documentaires.",
+      "url": null
+    },
+    {
+      "id": "match-marc",
+      "title": "Match MARC",
+      "description": "Comparer deux corpus bibliographiques.",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,1569 @@
+{
+  "title": "Les essentiels du CUB",
+  "version": "1.0",
+  "lastUpdated": "2026-11-12",
+  "editorialPrinciples": {
+    "tagline": "Comprendre l’essentiel, approfondir si nécessaire.",
+    "softwareNeutrality": "Les fiches présentent les concepts, les standards et les données indépendamment des logiciels utilisés.",
+    "sigbNaming": "Aucun SIGB particulier ne doit être nommé dans les fiches.",
+    "license": "CC BY 4.0"
+  },
+  "categories": [
+    {
+      "id": "comprendre-les-donnees",
+      "label": "Comprendre les données"
+    },
+    {
+      "id": "identifier",
+      "label": "Identifier"
+    },
+    {
+      "id": "formats-standards",
+      "label": "Formats & standards"
+    },
+    {
+      "id": "interroger-recuperer",
+      "label": "Interroger & récupérer"
+    },
+    {
+      "id": "relier-les-donnees",
+      "label": "Relier les données"
+    },
+    {
+      "id": "qualite-controle",
+      "label": "Qualité & contrôle"
+    },
+    {
+      "id": "transition-bibliographique",
+      "label": "Transition bibliographique"
+    },
+    {
+      "id": "outils-reutilisation-bnf",
+      "label": "Outils & réutilisation BnF"
+    }
+  ],
+  "levels": [
+    {
+      "id": "decouverte",
+      "label": "Découverte",
+      "symbol": "●"
+    },
+    {
+      "id": "pratique",
+      "label": "Pratique",
+      "symbol": "●●"
+    },
+    {
+      "id": "approfondissement",
+      "label": "Approfondissement",
+      "symbol": "●●●"
+    }
+  ],
+  "fiches": [
+    {
+      "id": "une-donnee-bibliographique-c-est-quoi",
+      "number": 1,
+      "title": "Une donnée bibliographique, c’est quoi ?",
+      "category": "comprendre-les-donnees",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Données bibliographiques",
+        "Métadonnées",
+        "Notice"
+      ],
+      "summary": "Une donnée bibliographique est une information structurée utilisée pour identifier, décrire, retrouver ou relier une ressource documentaire.",
+      "sections": {
+        "enUnePhrase": "Une donnée bibliographique est une information structurée utilisée pour identifier, décrire, retrouver ou relier une ressource documentaire.",
+        "en2Minutes": "Un catalogue organise séparément le titre, l’auteur, la date, la langue, les identifiants ou les sujets. Ces informations deviennent exploitables parce qu’elles sont structurées et regroupées dans une notice bibliographique.",
+        "exempleConcret": "Titre : Le Petit Prince ; Auteur : Antoine de Saint-Exupéry ; Date : 1943 ; Langue : français.",
+        "schema": null,
+        "aRetenir": [
+          "Une donnée bibliographique décrit un aspect précis d’une ressource.",
+          "Plusieurs données organisées ensemble constituent une notice.",
+          "La structuration permet recherche, échange et réutilisation."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Donnée bibliographique ≠ document ; donnée bibliographique ≠ notice ; notice ≠ exemplaire.",
+        "approfondir": null
+      },
+      "related": [
+        "metadonnee-ou-donnee",
+        "notice-bibliographique-autorite-exemplaire",
+        "unimarc-chiffres-sous-champs"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "notice-bibliographique-autorite-exemplaire",
+      "number": 2,
+      "title": "Notice bibliographique, notice d’autorité, exemplaire : quelle différence ?",
+      "category": "comprendre-les-donnees",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Notice bibliographique",
+        "Autorité",
+        "Exemplaire"
+      ],
+      "summary": "Une notice bibliographique décrit une ressource, une notice d’autorité identifie une entité, et un exemplaire correspond à une occurrence particulière de cette ressource.",
+      "sections": {
+        "enUnePhrase": "Une notice bibliographique décrit une ressource, une notice d’autorité identifie une entité, et un exemplaire correspond à une occurrence particulière de cette ressource.",
+        "en2Minutes": "La notice bibliographique décrit une ressource. La notice d’autorité identifie une personne, une collectivité, une œuvre ou une autre entité. L’exemplaire décrit un objet particulier appartenant à une collection, avec par exemple une cote ou une provenance.",
+        "exempleConcret": "Une même notice bibliographique peut être liée à plusieurs exemplaires et à plusieurs autorités.",
+        "schema": null,
+        "aRetenir": [
+          "La notice bibliographique décrit une ressource.",
+          "La notice d’autorité identifie une entité.",
+          "L’exemplaire décrit une occurrence particulière."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Une notice d’autorité n’est pas une biographie ; une notice bibliographique n’est pas un exemplaire.",
+        "approfondir": null
+      },
+      "related": [
+        "une-donnee-bibliographique-c-est-quoi",
+        "qu-est-ce-qu-une-notice-autorite",
+        "ifla-lrm"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        },
+        {
+          "organization": "Transition bibliographique",
+          "title": "Programme Transition bibliographique",
+          "url": "https://www.transition-bibliographique.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "identifiants-isbn-issn-ark-isni-viaf",
+      "number": 3,
+      "title": "ISBN, ISSN, ARK, ISNI, VIAF : à quoi servent les identifiants ?",
+      "category": "identifier",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "ISBN",
+        "ISSN",
+        "ARK",
+        "ISNI",
+        "VIAF"
+      ],
+      "summary": "Un identifiant permet de désigner une ressource ou une entité de manière stable et non ambiguë.",
+      "sections": {
+        "enUnePhrase": "Un identifiant permet de désigner une ressource ou une entité de manière stable et non ambiguë.",
+        "en2Minutes": "L’ISBN identifie une publication monographique dans une édition et une forme déterminées. L’ISSN identifie une publication en série ou ressource continue. L’ARK est un système d’identification pérenne. L’ISNI identifie des identités publiques. VIAF rapproche des notices d’autorité provenant de différentes institutions.",
+        "exempleConcret": "Une publication peut avoir un ISBN, un ARK pour sa notice ou sa ressource, et des identifiants ISNI ou VIAF associés à son auteur.",
+        "schema": null,
+        "aRetenir": [
+          "Tous les identifiants n’identifient pas la même chose.",
+          "Ils facilitent le rapprochement et l’échange.",
+          "Ils sont essentiels à l’interopérabilité."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "ISBN ≠ identifiant d’œuvre ; ARK ≠ URL ; ISNI ≠ VIAF.",
+        "approfondir": null
+      },
+      "related": [
+        "un-ark-comment-ca-fonctionne",
+        "isbn-que-designe-ce-numero",
+        "isni-viaf"
+      ],
+      "sources": [
+        {
+          "organization": "International ISBN Agency",
+          "title": "ISBN",
+          "url": "https://www.isbn-international.org/"
+        },
+        {
+          "organization": "ISSN International Centre",
+          "title": "ISSN",
+          "url": "https://www.issn.org/"
+        },
+        {
+          "organization": "ISNI International Agency",
+          "title": "ISNI",
+          "url": "https://isni.org/"
+        },
+        {
+          "organization": "VIAF / OCLC",
+          "title": "VIAF",
+          "url": "https://viaf.org/"
+        },
+        {
+          "organization": "ARK Alliance",
+          "title": "ARK",
+          "url": "https://arks.org/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "metadonnee-ou-donnee",
+      "number": 4,
+      "title": "Métadonnée ou donnée : quelle différence ?",
+      "category": "comprendre-les-donnees",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Donnée",
+        "Métadonnée",
+        "Structure"
+      ],
+      "summary": "Une donnée est une information ; une métadonnée est une donnée utilisée pour décrire ou contextualiser une autre ressource.",
+      "sections": {
+        "enUnePhrase": "Une donnée est une information ; une métadonnée est une donnée utilisée pour décrire ou contextualiser une autre ressource.",
+        "en2Minutes": "Un titre, une date ou un nom deviennent des métadonnées lorsqu’ils servent à décrire une ressource. La distinction dépend donc surtout du rôle joué par l’information.",
+        "exempleConcret": "Pour une image : l’image est la donnée ; son titre, son format et sa date sont des métadonnées.",
+        "schema": null,
+        "aRetenir": [
+          "Une métadonnée décrit une ressource.",
+          "Une même information peut changer de rôle selon le contexte.",
+          "Les métadonnées facilitent recherche et réutilisation."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Métadonnée ≠ information secondaire.",
+        "approfondir": null
+      },
+      "related": [
+        "une-donnee-bibliographique-c-est-quoi",
+        "pourquoi-structurer-les-donnees"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "pourquoi-structurer-les-donnees",
+      "number": 5,
+      "title": "Pourquoi structurer les données ?",
+      "category": "comprendre-les-donnees",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Données structurées",
+        "Interopérabilité"
+      ],
+      "summary": "Structurer les données consiste à organiser chaque information selon une règle connue afin qu’elle puisse être comprise et réutilisée automatiquement.",
+      "sections": {
+        "enUnePhrase": "Structurer les données consiste à organiser chaque information selon une règle connue afin qu’elle puisse être comprise et réutilisée automatiquement.",
+        "en2Minutes": "Séparer titre, auteur, date ou lieu permet à une machine d’identifier la fonction de chaque valeur. Les formats et standards apportent une structure et une sémantique communes.",
+        "exempleConcret": "Victor Hugo, Les Misérables, Paris, 1862 → Auteur=Victor Hugo ; Titre=Les Misérables ; Date=1862.",
+        "schema": null,
+        "aRetenir": [
+          "Structurer signifie séparer et identifier les informations.",
+          "La donnée structurée est plus facilement exploitable.",
+          "Les standards permettent une interprétation commune."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Une donnée structurée n’est utile que si sa signification est connue.",
+        "approfondir": null
+      },
+      "related": [
+        "une-donnee-bibliographique-c-est-quoi",
+        "unimarc-chiffres-sous-champs"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        },
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "un-ark-comment-ca-fonctionne",
+      "number": 6,
+      "title": "Un ARK, comment ça fonctionne ?",
+      "category": "identifier",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "ARK",
+        "Identifiant pérenne",
+        "BnF"
+      ],
+      "summary": "Un ARK est un identifiant conçu pour désigner durablement une ressource indépendamment des changements d’emplacement.",
+      "sections": {
+        "enUnePhrase": "Un ARK est un identifiant conçu pour désigner durablement une ressource indépendamment des changements d’emplacement.",
+        "en2Minutes": "Un ARK comporte le préfixe ark:, une autorité de nommage et un identifiant attribué à la ressource. Il peut être intégré dans une URL d’accès, sans se réduire à cette URL.",
+        "exempleConcret": "https://catalogue.bnf.fr/ark:/12148/... contient un ARK.",
+        "schema": null,
+        "aRetenir": [
+          "L’ARK identifie durablement.",
+          "Il peut être intégré dans une URL.",
+          "La BnF l’utilise pour des notices et ressources."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "ARK ≠ URL.",
+        "approfondir": null
+      },
+      "related": [
+        "identifiants-isbn-issn-ark-isni-viaf",
+        "uri-donnees-liees"
+      ],
+      "sources": [
+        {
+          "organization": "ARK Alliance",
+          "title": "ARK",
+          "url": "https://arks.org/"
+        },
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "isbn-que-designe-ce-numero",
+      "number": 7,
+      "title": "ISBN : que désigne réellement ce numéro ?",
+      "category": "identifier",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "ISBN",
+        "Livre",
+        "Édition"
+      ],
+      "summary": "L’ISBN identifie une publication monographique déterminée dans une édition et une forme particulières, pas l’œuvre abstraite.",
+      "sections": {
+        "enUnePhrase": "L’ISBN identifie une publication monographique déterminée dans une édition et une forme particulières, pas l’œuvre abstraite.",
+        "en2Minutes": "Un même texte peut recevoir plusieurs ISBN selon l’édition ou la forme : reliée, poche, numérique, édition révisée, etc. L’ISBN est très utile pour le rapprochement de données mais doit être contrôlé.",
+        "exempleConcret": "Œuvre → édition imprimée : ISBN A ; édition numérique : ISBN B.",
+        "schema": null,
+        "aRetenir": [
+          "L’ISBN n’identifie pas une œuvre abstraite.",
+          "Des éditions différentes peuvent avoir des ISBN différents.",
+          "L’ISBN est un indice fort mais non absolu."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Même ISBN ≠ preuve absolue de notice identique.",
+        "approfondir": null
+      },
+      "related": [
+        "identifiants-isbn-issn-ark-isni-viaf",
+        "doublon-bibliographique",
+        "controler-identifiants"
+      ],
+      "sources": [
+        {
+          "organization": "International ISBN Agency",
+          "title": "ISBN",
+          "url": "https://www.isbn-international.org/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "isni-viaf",
+      "number": 8,
+      "title": "ISNI et VIAF : comment identifier et relier les personnes ?",
+      "category": "identifier",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "ISNI",
+        "VIAF",
+        "Autorités"
+      ],
+      "summary": "ISNI fournit un identifiant international d’identité publique ; VIAF rapproche des notices d’autorité provenant de nombreuses institutions.",
+      "sections": {
+        "enUnePhrase": "ISNI fournit un identifiant international d’identité publique ; VIAF rapproche des notices d’autorité provenant de nombreuses institutions.",
+        "en2Minutes": "Une même personne peut être désignée sous plusieurs formes. L’ISNI identifie une identité publique ; VIAF rapproche des notices d’autorité institutionnelles correspondant à une même entité.",
+        "exempleConcret": "Personne → ISNI pour l’identité publique ; VIAF pour le rapprochement d’autorités.",
+        "schema": null,
+        "aRetenir": [
+          "ISNI et VIAF ont des fonctions différentes.",
+          "Ils améliorent l’identification.",
+          "Ils facilitent l’interopérabilité."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Un identifiant ne remplace pas la description de l’entité.",
+        "approfondir": null
+      },
+      "related": [
+        "qu-est-ce-qu-une-notice-autorite",
+        "pourquoi-relier-notice-autorite"
+      ],
+      "sources": [
+        {
+          "organization": "ISNI International Agency",
+          "title": "ISNI",
+          "url": "https://isni.org/"
+        },
+        {
+          "organization": "VIAF / OCLC",
+          "title": "VIAF",
+          "url": "https://viaf.org/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "unimarc-chiffres-sous-champs",
+      "number": 9,
+      "title": "UNIMARC : pourquoi une notice est-elle composée de chiffres et de sous-champs ?",
+      "category": "formats-standards",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "UNIMARC",
+        "Champs",
+        "Sous-champs"
+      ],
+      "summary": "UNIMARC organise les informations bibliographiques dans des zones codées afin qu’elles puissent être interprétées et échangées.",
+      "sections": {
+        "enUnePhrase": "UNIMARC organise les informations bibliographiques dans des zones codées afin qu’elles puissent être interprétées et échangées.",
+        "en2Minutes": "Le numéro de zone indique la fonction générale. Les indicateurs apportent des précisions et les sous-champs découpent le contenu. Les zones sont regroupées en grands blocs fonctionnels.",
+        "exempleConcret": "200 1# $aTitre$fAuteur",
+        "schema": null,
+        "aRetenir": [
+          "Le numéro de zone indique sa fonction.",
+          "Les sous-champs organisent l’information.",
+          "La structure permet l’échange automatisé."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Les zones locales dépendent du contexte de chaque catalogue.",
+        "approfondir": null
+      },
+      "related": [
+        "lire-unimarc",
+        "iso-2709",
+        "marc-marcxml-xml-json"
+      ],
+      "sources": [
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "lire-unimarc",
+      "number": 10,
+      "title": "Lire une notice UNIMARC en 2 minutes",
+      "category": "formats-standards",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "UNIMARC",
+        "Notice",
+        "Lecture"
+      ],
+      "summary": "Pour lire une notice UNIMARC, on identifie successivement la zone, les indicateurs puis les sous-champs.",
+      "sections": {
+        "enUnePhrase": "Pour lire une notice UNIMARC, on identifie successivement la zone, les indicateurs puis les sous-champs.",
+        "en2Minutes": "Il n’est pas nécessaire de mémoriser toutes les zones. Il faut comprendre la logique générale et savoir consulter la documentation du format pour interpréter chaque élément.",
+        "exempleConcret": "200 1# $aLe titre$ecomplément$fNom de l’auteur",
+        "schema": null,
+        "aRetenir": [
+          "Une notice UNIMARC se lit par niveaux.",
+          "Les zones ont une fonction définie.",
+          "La documentation du format reste la référence."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Les zones locales peuvent varier selon les catalogues.",
+        "approfondir": null
+      },
+      "related": [
+        "unimarc-chiffres-sous-champs",
+        "marc-marcxml-xml-json"
+      ],
+      "sources": [
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "marc-marcxml-xml-json",
+      "number": 11,
+      "title": "MARC, MARCXML, XML, JSON : quelles différences ?",
+      "category": "formats-standards",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "MARC",
+        "MARCXML",
+        "XML",
+        "JSON"
+      ],
+      "summary": "MARC décrit une structure bibliographique ; MARCXML représente MARC en XML ; XML et JSON sont des syntaxes générales de représentation de données.",
+      "sections": {
+        "enUnePhrase": "MARC décrit une structure bibliographique ; MARCXML représente MARC en XML ; XML et JSON sont des syntaxes générales de représentation de données.",
+        "en2Minutes": "Ces termes ne sont pas au même niveau. Une même information bibliographique peut être représentée en MARC, en MARCXML ou transformée en JSON sans que sa signification change nécessairement.",
+        "exempleConcret": "MARC : 200 $aTitre ; XML : <field tag='200'> ; JSON : {\"tag\":\"200\"}.",
+        "schema": null,
+        "aRetenir": [
+          "MARC porte une sémantique bibliographique.",
+          "XML et JSON sont des syntaxes générales.",
+          "Changer de syntaxe ne signifie pas changer de modèle."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "XML ≠ MARCXML.",
+        "approfondir": null
+      },
+      "related": [
+        "unimarc-chiffres-sous-champs",
+        "iso-2709"
+      ],
+      "sources": [
+        {
+          "organization": "Library of Congress",
+          "title": "MARCXML",
+          "url": "https://www.loc.gov/standards/marcxml/"
+        },
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "iso-2709",
+      "number": 12,
+      "title": "ISO 2709 : comment plusieurs notices sont-elles stockées dans un fichier MARC ?",
+      "category": "formats-standards",
+      "level": "approfondissement",
+      "levels": [
+        "approfondissement"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "ISO 2709",
+        "MARC",
+        "Fichier"
+      ],
+      "summary": "ISO 2709 définit une structure permettant de stocker et d’échanger des notices sous forme d’enregistrements organisés.",
+      "sections": {
+        "enUnePhrase": "ISO 2709 définit une structure permettant de stocker et d’échanger des notices sous forme d’enregistrements organisés.",
+        "en2Minutes": "Chaque notice contient notamment un leader, un répertoire et des zones de données. Le leader aide à interpréter l’enregistrement, le répertoire localise les zones, et des caractères de contrôle marquent les séparations.",
+        "exempleConcret": "NOTICE = Leader + Répertoire + Données",
+        "schema": null,
+        "aRetenir": [
+          "ISO 2709 décrit l’organisation physique.",
+          "UNIMARC décrit la sémantique des zones.",
+          "Les deux sont complémentaires."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "ISO 2709 ≠ UNIMARC.",
+        "approfondir": null
+      },
+      "related": [
+        "unimarc-chiffres-sous-champs",
+        "marc-marcxml-xml-json"
+      ],
+      "sources": [
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "une-api-a-quoi-ca-sert",
+      "number": 13,
+      "title": "Une API, à quoi ça sert ?",
+      "category": "interroger-recuperer",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "API",
+        "Données",
+        "Service web"
+      ],
+      "summary": "Une API permet à un programme de demander automatiquement des données ou des services à une autre application selon des règles définies.",
+      "sections": {
+        "enUnePhrase": "Une API permet à un programme de demander automatiquement des données ou des services à une autre application selon des règles définies.",
+        "en2Minutes": "Une API définit comment envoyer une demande, quels paramètres sont possibles, quel résultat sera retourné et sous quel format. Elle permet d’automatiser des opérations sans passer par l’interface graphique destinée aux humains.",
+        "exempleConcret": "Application → requête → API → service → réponse",
+        "schema": null,
+        "aRetenir": [
+          "Une API est une interface destinée aux programmes.",
+          "Elle automatise la récupération de données.",
+          "Chaque API possède sa propre documentation."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "API est un terme général : SRU ou IIIF peuvent être utilisés dans des contextes d’API.",
+        "approfondir": null
+      },
+      "related": [
+        "sru-catalogue-distance",
+        "cql-requete-sru",
+        "api-sru-oai-pmh"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API et jeux de données",
+          "url": "https://api.bnf.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "sru-catalogue-distance",
+      "number": 14,
+      "title": "SRU : comment interroger un catalogue à distance ?",
+      "category": "interroger-recuperer",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "SRU",
+        "Recherche",
+        "Catalogue"
+      ],
+      "summary": "SRU est un protocole permettant d’envoyer des requêtes de recherche à un serveur distant et de récupérer des résultats structurés.",
+      "sections": {
+        "enUnePhrase": "SRU est un protocole permettant d’envoyer des requêtes de recherche à un serveur distant et de récupérer des résultats structurés.",
+        "en2Minutes": "SRU signifie Search/Retrieve via URL. Une requête peut préciser l’opération, la recherche, la pagination et le format souhaité. Le serveur retourne généralement une réponse structurée en XML.",
+        "exempleConcret": "Application → requête SRU → serveur → résultats XML",
+        "schema": null,
+        "aRetenir": [
+          "SRU est un protocole de recherche.",
+          "La requête peut utiliser CQL.",
+          "Les résultats sont structurés."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "SRU ne doit pas être confondu avec un protocole de moissonnage.",
+        "approfondir": null
+      },
+      "related": [
+        "une-api-a-quoi-ca-sert",
+        "cql-requete-sru",
+        "api-sru-oai-pmh"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API SRU Catalogue général",
+          "url": "https://api.bnf.fr/fr/api-sru-catalogue-general"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "cql-requete-sru",
+      "number": 15,
+      "title": "CQL : comment écrire une requête SRU ?",
+      "category": "interroger-recuperer",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "CQL",
+        "SRU",
+        "Requête"
+      ],
+      "summary": "CQL est un langage permettant d’exprimer précisément ce que l’on souhaite rechercher dans un service SRU.",
+      "sections": {
+        "enUnePhrase": "CQL est un langage permettant d’exprimer précisément ce que l’on souhaite rechercher dans un service SRU.",
+        "en2Minutes": "Une requête CQL associe généralement un index, une relation et une valeur. Plusieurs critères peuvent être combinés avec AND, OR ou NOT. Les index disponibles dépendent du serveur interrogé.",
+        "exempleConcret": "auteur = Hugo AND titre = Misérables",
+        "schema": null,
+        "aRetenir": [
+          "CQL exprime la logique d’une recherche.",
+          "Les index dépendent du serveur.",
+          "La documentation du service est indispensable."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "CQL n’est pas un langage de programmation général.",
+        "approfondir": null
+      },
+      "related": [
+        "sru-catalogue-distance",
+        "une-api-a-quoi-ca-sert"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API SRU Catalogue général",
+          "url": "https://api.bnf.fr/fr/api-sru-catalogue-general"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "oai-pmh-moissonnage",
+      "number": 16,
+      "title": "OAI-PMH : qu’est-ce que le moissonnage de métadonnées ?",
+      "category": "interroger-recuperer",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "OAI-PMH",
+        "Moissonnage",
+        "Métadonnées"
+      ],
+      "summary": "OAI-PMH est un protocole permettant à un service de collecter régulièrement les métadonnées mises à disposition par un autre service.",
+      "sections": {
+        "enUnePhrase": "OAI-PMH est un protocole permettant à un service de collecter régulièrement les métadonnées mises à disposition par un autre service.",
+        "en2Minutes": "Un fournisseur expose un entrepôt et un moissonneur récupère tout ou partie des notices, éventuellement seulement celles modifiées depuis une date. OAI-PMH est donc particulièrement adapté à la collecte régulière de métadonnées.",
+        "exempleConcret": "Entrepôt → OAI-PMH → Moissonneur → Portail ou base",
+        "schema": null,
+        "aRetenir": [
+          "OAI-PMH sert surtout à collecter des métadonnées.",
+          "Il permet des mises à jour régulières.",
+          "Il est adapté aux échanges entre entrepôts et portails."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "OAI-PMH n’est pas conçu d’abord comme un moteur de recherche interactif.",
+        "approfondir": null
+      },
+      "related": [
+        "une-api-a-quoi-ca-sert",
+        "api-sru-oai-pmh"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les entrepôts OAI de la BnF",
+          "url": "https://www.bnf.fr/fr/les-entrepots-oai-de-la-bnf"
+        },
+        {
+          "organization": "Open Archives Initiative",
+          "title": "OAI-PMH",
+          "url": "https://www.openarchives.org/pmh/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "api-sru-oai-pmh",
+      "number": 17,
+      "title": "API, SRU et OAI-PMH : lequel utiliser ?",
+      "category": "interroger-recuperer",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "API",
+        "SRU",
+        "OAI-PMH"
+      ],
+      "summary": "Le bon mécanisme dépend de l’objectif : interroger précisément, utiliser un service spécialisé ou collecter régulièrement des métadonnées.",
+      "sections": {
+        "enUnePhrase": "Le bon mécanisme dépend de l’objectif : interroger précisément, utiliser un service spécialisé ou collecter régulièrement des métadonnées.",
+        "en2Minutes": "SRU convient à la recherche structurée dans un catalogue. OAI-PMH convient au moissonnage régulier. Une API dédiée peut fournir d’autres services spécifiques. Il n’existe donc pas de protocole meilleur dans l’absolu.",
+        "exempleConcret": "Recherche précise → SRU ; collecte régulière → OAI-PMH ; service spécialisé → API dédiée.",
+        "schema": null,
+        "aRetenir": [
+          "Choisir selon le besoin.",
+          "SRU vise surtout la recherche.",
+          "OAI-PMH vise surtout la collecte."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "API est un terme générique, SRU et OAI-PMH sont des protocoles définis.",
+        "approfondir": null
+      },
+      "related": [
+        "une-api-a-quoi-ca-sert",
+        "sru-catalogue-distance",
+        "oai-pmh-moissonnage"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API et jeux de données",
+          "url": "https://api.bnf.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "qu-est-ce-qu-une-notice-autorite",
+      "number": 18,
+      "title": "Qu’est-ce qu’une notice d’autorité ?",
+      "category": "relier-les-donnees",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Autorité",
+        "Personne",
+        "Collectivité",
+        "Œuvre"
+      ],
+      "summary": "Une notice d’autorité sert à identifier de manière contrôlée une personne, une collectivité, une œuvre, un lieu ou une autre entité.",
+      "sections": {
+        "enUnePhrase": "Une notice d’autorité sert à identifier de manière contrôlée une personne, une collectivité, une œuvre, un lieu ou une autre entité.",
+        "en2Minutes": "Elle rassemble les éléments permettant d’identifier une entité, distinguer les homonymes, connaître ses variantes de nom et la relier à d’autres données. Elle peut contenir une forme privilégiée, des variantes, des dates, des identifiants, des relations et des sources.",
+        "exempleConcret": "Plusieurs variantes de nom → une autorité identifiée.",
+        "schema": null,
+        "aRetenir": [
+          "Une autorité identifie une entité, pas un document.",
+          "Elle rassemble les variantes.",
+          "Elle améliore recherche et mise en relation."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Une notice d’autorité de personne n’est pas une biographie exhaustive.",
+        "approfondir": null
+      },
+      "related": [
+        "isni-viaf",
+        "pourquoi-relier-notice-autorite"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "pourquoi-relier-notice-autorite",
+      "number": 19,
+      "title": "Pourquoi relier une notice bibliographique à une autorité ?",
+      "category": "relier-les-donnees",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Autorités",
+        "Relations",
+        "Interopérabilité"
+      ],
+      "summary": "Relier une notice à une autorité permet de remplacer une simple chaîne de caractères par une relation vers une entité identifiée.",
+      "sections": {
+        "enUnePhrase": "Relier une notice à une autorité permet de remplacer une simple chaîne de caractères par une relation vers une entité identifiée.",
+        "en2Minutes": "Lorsqu’un nom pointe vers une autorité, il est associé à un identifiant, des variantes, des dates et d’autres relations. Cela facilite la recherche, la désambiguïsation, les regroupements et l’échange de données.",
+        "exempleConcret": "Notice A + Notice B + Notice C → même autorité de personne.",
+        "schema": null,
+        "aRetenir": [
+          "Une autorité évite les formes incohérentes.",
+          "Plusieurs notices peuvent pointer vers la même entité.",
+          "Les relations sont fondamentales pour les données liées."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Une chaîne de caractères n’est pas équivalente à une entité identifiée.",
+        "approfondir": null
+      },
+      "related": [
+        "qu-est-ce-qu-une-notice-autorite",
+        "uri-donnees-liees"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "Les produits bibliographiques",
+          "url": "https://www.bnf.fr/fr/les-produits-bibliographiques"
+        },
+        {
+          "organization": "Transition bibliographique",
+          "title": "Programme Transition bibliographique",
+          "url": "https://www.transition-bibliographique.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "uri-donnees-liees",
+      "number": 20,
+      "title": "URI et données liées : pourquoi utiliser des identifiants ?",
+      "category": "relier-les-donnees",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "URI",
+        "Données liées",
+        "Identifiants"
+      ],
+      "summary": "Une URI permet de désigner une ressource ou une entité de manière identifiable sur le Web et de construire des relations entre données.",
+      "sections": {
+        "enUnePhrase": "Une URI permet de désigner une ressource ou une entité de manière identifiable sur le Web et de construire des relations entre données.",
+        "en2Minutes": "Les données liées utilisent des identifiants pour établir des relations entre ressources. Cela permet de connecter plusieurs jeux de données sans recopier toutes les informations et de désigner précisément les entités concernées.",
+        "exempleConcret": "URI A ─ relation ─> URI B",
+        "schema": null,
+        "aRetenir": [
+          "Une URI sert à identifier.",
+          "Les identifiants relient les jeux de données.",
+          "Les données liées reposent sur des relations explicites."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Une URI n’est pas nécessairement une page web lisible par un humain.",
+        "approfondir": null
+      },
+      "related": [
+        "un-ark-comment-ca-fonctionne",
+        "rdf-relations",
+        "de-la-notice-au-graphe"
+      ],
+      "sources": [
+        {
+          "organization": "W3C",
+          "title": "RDF",
+          "url": "https://www.w3.org/TR/rdf12-primer/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "rdf-relations",
+      "number": 21,
+      "title": "RDF : comment transformer des données en relations ?",
+      "category": "relier-les-donnees",
+      "level": "approfondissement",
+      "levels": [
+        "approfondissement"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "RDF",
+        "Triplet",
+        "Graphe"
+      ],
+      "summary": "RDF représente l’information sous forme d’énoncés reliant un sujet, une propriété et une valeur ou une autre ressource.",
+      "sections": {
+        "enUnePhrase": "RDF représente l’information sous forme d’énoncés reliant un sujet, une propriété et une valeur ou une autre ressource.",
+        "en2Minutes": "RDF signifie Resource Description Framework. Son unité de base est le triplet : sujet, propriété, objet. En accumulant les triplets, on obtient un graphe de données où les entités sont reliées entre elles.",
+        "exempleConcret": "Livre → a pour auteur → Personne",
+        "schema": null,
+        "aRetenir": [
+          "RDF décrit des relations.",
+          "Un triplet comporte sujet, propriété et objet.",
+          "Plusieurs triplets forment un graphe."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "RDF n’est pas un format d’affichage unique.",
+        "approfondir": null
+      },
+      "related": [
+        "uri-donnees-liees",
+        "de-la-notice-au-graphe",
+        "ifla-lrm"
+      ],
+      "sources": [
+        {
+          "organization": "W3C",
+          "title": "RDF",
+          "url": "https://www.w3.org/TR/rdf12-primer/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "doublon-bibliographique",
+      "number": 22,
+      "title": "Comment reconnaître un doublon bibliographique ?",
+      "category": "qualite-controle",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Doublons",
+        "ISBN",
+        "Qualité"
+      ],
+      "summary": "Un doublon bibliographique correspond à plusieurs descriptions qui semblent représenter la même ressource et doivent être comparées avant toute fusion.",
+      "sections": {
+        "enUnePhrase": "Un doublon bibliographique correspond à plusieurs descriptions qui semblent représenter la même ressource et doivent être comparées avant toute fusion.",
+        "en2Minutes": "Il faut comparer plusieurs critères : identifiants, titre, responsabilités, date, édition, éditeur ou support. Un ISBN commun est un indice fort mais ne suffit pas toujours. Les cas ambigus nécessitent une validation humaine.",
+        "exempleConcret": "ISBN identique + titre très proche + auteur identique + date identique → doublon très probable.",
+        "schema": null,
+        "aRetenir": [
+          "Un doublon ne se décide pas sur un seul champ.",
+          "Les identifiants doivent être contrôlés.",
+          "Les cas ambigus exigent une validation humaine."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Même titre ≠ même ressource ; même ISBN ≠ certitude absolue.",
+        "approfondir": null
+      },
+      "related": [
+        "isbn-que-designe-ce-numero",
+        "donnee-bibliographique-qualite",
+        "comparer-deux-corpus"
+      ],
+      "sources": [
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "donnee-bibliographique-qualite",
+      "number": 23,
+      "title": "Qu’est-ce qu’une donnée bibliographique de qualité ?",
+      "category": "qualite-controle",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Qualité",
+        "Complétude",
+        "Cohérence"
+      ],
+      "summary": "Une donnée bibliographique de qualité est suffisamment exacte, complète, cohérente et structurée pour permettre l’identification et la réutilisation.",
+      "sections": {
+        "enUnePhrase": "Une donnée bibliographique de qualité est suffisamment exacte, complète, cohérente et structurée pour permettre l’identification et la réutilisation.",
+        "en2Minutes": "La qualité possède plusieurs dimensions : exactitude, complétude, cohérence, normalisation, identifiabilité et réutilisabilité. Une notice peut être techniquement valide mais contenir un identifiant erroné ; elle peut aussi être complète mais difficile à exploiter si elle est mal structurée.",
+        "exempleConcret": "Exactitude + Complétude + Cohérence + Structure → qualité.",
+        "schema": null,
+        "aRetenir": [
+          "La qualité possède plusieurs dimensions.",
+          "Une donnée correcte mais mal structurée reste difficile à réutiliser.",
+          "Les contrôles portent sur le sens autant que sur la forme."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Validité technique ≠ qualité bibliographique globale.",
+        "approfondir": null
+      },
+      "related": [
+        "pourquoi-structurer-les-donnees",
+        "controler-identifiants",
+        "comparer-deux-corpus"
+      ],
+      "sources": [
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "controler-identifiants",
+      "number": 24,
+      "title": "Pourquoi contrôler les identifiants dans un catalogue ?",
+      "category": "qualite-controle",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Identifiants",
+        "Contrôle",
+        "Qualité"
+      ],
+      "summary": "Les identifiants facilitent les rapprochements automatiques ; une erreur peut donc propager rapidement une mauvaise correspondance.",
+      "sections": {
+        "enUnePhrase": "Les identifiants facilitent les rapprochements automatiques ; une erreur peut donc propager rapidement une mauvaise correspondance.",
+        "en2Minutes": "Les contrôles peuvent porter sur la structure, la longueur, la clé de contrôle, les doublons et la cohérence avec la ressource. Un identifiant syntaxiquement valide peut néanmoins être attribué à la mauvaise ressource.",
+        "exempleConcret": "Identifiant → contrôle syntaxique + contrôle bibliographique.",
+        "schema": null,
+        "aRetenir": [
+          "Un identifiant valide peut être mal attribué.",
+          "Contrôles automatiques et bibliographiques sont complémentaires.",
+          "Plus l’identifiant automatise, plus sa qualité est critique."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Validité syntaxique ≠ exactitude bibliographique.",
+        "approfondir": null
+      },
+      "related": [
+        "isbn-que-designe-ce-numero",
+        "doublon-bibliographique",
+        "donnee-bibliographique-qualite"
+      ],
+      "sources": [
+        {
+          "organization": "International ISBN Agency",
+          "title": "ISBN",
+          "url": "https://www.isbn-international.org/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "comparer-deux-corpus",
+      "number": 25,
+      "title": "Comment comparer deux corpus bibliographiques ?",
+      "category": "qualite-controle",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Corpus",
+        "Comparaison",
+        "Normalisation"
+      ],
+      "summary": "Comparer deux corpus consiste à rechercher les correspondances entre leurs notices en utilisant plusieurs critères puis à examiner les écarts.",
+      "sections": {
+        "enUnePhrase": "Comparer deux corpus consiste à rechercher les correspondances entre leurs notices en utilisant plusieurs critères puis à examiner les écarts.",
+        "en2Minutes": "Une comparaison efficace comprend généralement normalisation, indexation, recherche de candidats, mesure des écarts et validation. Les identifiants peuvent être utilisés en priorité, puis le titre, les responsabilités ou la date. Il faut distinguer recherche de candidats et décision finale.",
+        "exempleConcret": "Corpus A → normalisation → rapprochement ↔ Corpus B → correspondances / écarts.",
+        "schema": null,
+        "aRetenir": [
+          "Comparer ne signifie pas seulement chercher des égalités exactes.",
+          "Recherche de candidats et décision finale sont distinctes.",
+          "La validation humaine reste indispensable."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Score de similarité ≠ décision bibliographique.",
+        "approfondir": null
+      },
+      "related": [
+        "doublon-bibliographique",
+        "controler-identifiants",
+        "donnee-bibliographique-qualite"
+      ],
+      "sources": [
+        {
+          "organization": "IFLA",
+          "title": "UNIMARC",
+          "url": "https://www.ifla.org/g/unimarc-rg/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "ifla-lrm",
+      "number": 26,
+      "title": "IFLA LRM : pourquoi parler d’Œuvre, Expression, Manifestation et Item ?",
+      "category": "transition-bibliographique",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "IFLA LRM",
+        "Œuvre",
+        "Expression",
+        "Manifestation",
+        "Item"
+      ],
+      "summary": "IFLA LRM distingue différentes entités afin de mieux représenter le contenu intellectuel, sa réalisation, sa publication et son exemplaire particulier.",
+      "sections": {
+        "enUnePhrase": "IFLA LRM distingue différentes entités afin de mieux représenter le contenu intellectuel, sa réalisation, sa publication et son exemplaire particulier.",
+        "en2Minutes": "L’Œuvre correspond à une création intellectuelle ou artistique. L’Expression est sa réalisation. La Manifestation correspond à sa matérialisation publiée ou diffusée. L’Item est un exemplaire particulier de cette manifestation.",
+        "exempleConcret": "Œuvre → Expression → Manifestation → Item",
+        "schema": null,
+        "aRetenir": [
+          "Une œuvre n’est pas une édition.",
+          "Une manifestation peut avoir plusieurs items.",
+          "Les relations entre entités permettent une description plus précise."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Le modèle ne consiste pas simplement à renommer les zones d’une notice.",
+        "approfondir": null
+      },
+      "related": [
+        "rda-fr",
+        "de-la-notice-au-graphe",
+        "notice-bibliographique-autorite-exemplaire"
+      ],
+      "sources": [
+        {
+          "organization": "Transition bibliographique",
+          "title": "Programme Transition bibliographique",
+          "url": "https://www.transition-bibliographique.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "rda-fr",
+      "number": 27,
+      "title": "RDA-FR : qu’est-ce qui change dans la description bibliographique ?",
+      "category": "transition-bibliographique",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "RDA-FR",
+        "Entités",
+        "Relations"
+      ],
+      "summary": "RDA-FR fait évoluer la description bibliographique vers une organisation davantage centrée sur les entités, leurs attributs et leurs relations.",
+      "sections": {
+        "enUnePhrase": "RDA-FR fait évoluer la description bibliographique vers une organisation davantage centrée sur les entités, leurs attributs et leurs relations.",
+        "en2Minutes": "RDA-FR pousse à penser en termes d’entités, d’attributs et de relations plutôt qu’en simple succession de zones. Il s’inscrit dans le programme français de Transition bibliographique et s’appuie sur IFLA LRM.",
+        "exempleConcret": "Personne → crée → Œuvre → est réalisée par → Expression",
+        "schema": null,
+        "aRetenir": [
+          "RDA-FR ne se réduit pas à de nouvelles règles de saisie.",
+          "Les relations deviennent centrales.",
+          "La transition est normative, intellectuelle et technique."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "RDA-FR ≠ simple changement de format.",
+        "approfondir": null
+      },
+      "related": [
+        "ifla-lrm",
+        "de-la-notice-au-graphe",
+        "rdf-relations"
+      ],
+      "sources": [
+        {
+          "organization": "Transition bibliographique",
+          "title": "Programme Transition bibliographique",
+          "url": "https://www.transition-bibliographique.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "de-la-notice-au-graphe",
+      "number": 28,
+      "title": "De la notice au graphe : que change la transition bibliographique ?",
+      "category": "transition-bibliographique",
+      "level": "approfondissement",
+      "levels": [
+        "approfondissement"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "Transition bibliographique",
+        "Graphe",
+        "Entités"
+      ],
+      "summary": "La transition bibliographique fait évoluer la représentation des catalogues d’un ensemble de notices relativement autonomes vers un réseau d’entités explicitement reliées.",
+      "sections": {
+        "enUnePhrase": "La transition bibliographique fait évoluer la représentation des catalogues d’un ensemble de notices relativement autonomes vers un réseau d’entités explicitement reliées.",
+        "en2Minutes": "Une approche orientée entités représente personnes, œuvres, expressions, manifestations, items et sujets comme des éléments distincts reliés. Cette représentation facilite navigation, regroupements, réutilisation et ouverture vers le Web de données.",
+        "exempleConcret": "Personne → crée → Œuvre → réalisée par → Expression → Manifestation.",
+        "schema": null,
+        "aRetenir": [
+          "La logique évolue de la notice vers le réseau de relations.",
+          "Les entités peuvent être identifiées séparément.",
+          "Le graphe facilite l’interopérabilité."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Graphe de données ≠ simple schéma visuel.",
+        "approfondir": null
+      },
+      "related": [
+        "ifla-lrm",
+        "rda-fr",
+        "rdf-relations",
+        "uri-donnees-liees"
+      ],
+      "sources": [
+        {
+          "organization": "Transition bibliographique",
+          "title": "Programme Transition bibliographique",
+          "url": "https://www.transition-bibliographique.fr/"
+        },
+        {
+          "organization": "W3C",
+          "title": "RDF",
+          "url": "https://www.w3.org/TR/rdf12-primer/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "quelles-donnees-recuperer-bnf",
+      "number": 29,
+      "title": "Quelles données peut-on récupérer auprès de la BnF ?",
+      "category": "outils-reutilisation-bnf",
+      "level": "decouverte",
+      "levels": [
+        "decouverte"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "BnF",
+        "Données",
+        "API",
+        "Jeux de données"
+      ],
+      "summary": "La BnF met à disposition des métadonnées bibliographiques, des données d’autorité, des données liées et différents services permettant de les interroger ou de les télécharger.",
+      "sections": {
+        "enUnePhrase": "La BnF met à disposition des métadonnées bibliographiques, des données d’autorité, des données liées et différents services permettant de les interroger ou de les télécharger.",
+        "en2Minutes": "On peut notamment accéder à des notices bibliographiques, des notices d’autorité, des métadonnées de collections numériques, des données liées et des jeux de données. Les voies d’accès incluent exports, SRU, OAI-PMH, API et jeux de données.",
+        "exempleConcret": "BnF → plusieurs jeux de données → plusieurs modes d’accès.",
+        "schema": null,
+        "aRetenir": [
+          "Il n’existe pas une seule « API BnF ».",
+          "Le mode d’accès dépend du besoin.",
+          "Les données peuvent être interrogées ou récupérées en volume."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Donnée disponible ≠ usage sans conditions : vérifier la documentation et les conditions de réutilisation.",
+        "approfondir": null
+      },
+      "related": [
+        "une-api-a-quoi-ca-sert",
+        "sru-catalogue-distance",
+        "oai-pmh-moissonnage",
+        "reutiliser-donnees-bnf"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API et jeux de données",
+          "url": "https://api.bnf.fr/"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    },
+    {
+      "id": "reutiliser-donnees-bnf",
+      "number": 30,
+      "title": "Comment réutiliser les données de la BnF dans une application ?",
+      "category": "outils-reutilisation-bnf",
+      "level": "pratique",
+      "levels": [
+        "pratique"
+      ],
+      "readingTime": 2,
+      "contentType": "fiche-documentaire",
+      "tags": [
+        "BnF",
+        "API",
+        "SRU",
+        "OAI-PMH",
+        "Réutilisation"
+      ],
+      "summary": "Réutiliser les données de la BnF consiste à choisir le service adapté, récupérer les données, les transformer si nécessaire puis les intégrer à son usage.",
+      "sections": {
+        "enUnePhrase": "Réutiliser les données de la BnF consiste à choisir le service adapté, récupérer les données, les transformer si nécessaire puis les intégrer à son usage.",
+        "en2Minutes": "Pour une recherche de notices, SRU peut être adapté. Pour une collecte régulière, OAI-PMH peut convenir. Pour des données en volume, un jeu de données peut être préférable. Pour des images, des services spécifiques peuvent être utilisés. Il faut conserver la source, les identifiants, la date de récupération et les conditions de réutilisation.",
+        "exempleConcret": "Besoin → choix de la source → requête ou téléchargement → transformation → application.",
+        "schema": null,
+        "aRetenir": [
+          "Commencer par définir le besoin.",
+          "Lire les formats, limites et conditions d’utilisation.",
+          "Conserver les identifiants et la provenance."
+        ],
+        "voirConcretement": "Observer, tester ou comparer un exemple réel lorsque la fiche s’y prête.",
+        "attention": "Récupérer les données ≠ les recopier sans provenance.",
+        "approfondir": null
+      },
+      "related": [
+        "une-api-a-quoi-ca-sert",
+        "sru-catalogue-distance",
+        "oai-pmh-moissonnage",
+        "quelles-donnees-recuperer-bnf"
+      ],
+      "sources": [
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API et jeux de données",
+          "url": "https://api.bnf.fr/"
+        },
+        {
+          "organization": "Bibliothèque nationale de France",
+          "title": "API SRU Catalogue général",
+          "url": "https://api.bnf.fr/fr/api-sru-catalogue-general"
+        }
+      ],
+      "firstPublished": null,
+      "lastChecked": "2026-11-12",
+      "status": "published",
+      "published": true
+    }
+  ]
+}

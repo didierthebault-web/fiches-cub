@@ -1,0 +1,9 @@
+{
+  "name": "fiches-cub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/content.cjs",
+    "start": "node tests/serve.cjs"
+  }
+}

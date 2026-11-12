@@ -1,0 +1,50 @@
+[
+  {
+    "id": "comprendre-les-donnees",
+    "label": "Comprendre les données",
+    "description": "Les bases pour lire et comprendre une information documentaire.",
+    "icon": "▤"
+  },
+  {
+    "id": "identifier",
+    "label": "Identifier",
+    "description": "Reconnaître une ressource, une personne ou une œuvre sans ambiguïté.",
+    "icon": "#"
+  },
+  {
+    "id": "formats-standards",
+    "label": "Formats & standards",
+    "description": "Comprendre comment les données sont structurées et échangées.",
+    "icon": "⌘"
+  },
+  {
+    "id": "interroger-recuperer",
+    "label": "Interroger & récupérer",
+    "description": "Choisir les services et protocoles adaptés à ses besoins.",
+    "icon": "⇄"
+  },
+  {
+    "id": "relier-les-donnees",
+    "label": "Relier les données",
+    "description": "Des autorités aux graphes, comprendre les liens entre les ressources.",
+    "icon": "◇"
+  },
+  {
+    "id": "qualite-controle",
+    "label": "Qualité & contrôle",
+    "description": "Vérifier, comparer et améliorer les données du catalogue.",
+    "icon": "✓"
+  },
+  {
+    "id": "transition-bibliographique",
+    "label": "Transition bibliographique",
+    "description": "Explorer les modèles et les nouvelles pratiques de description.",
+    "icon": "↗"
+  },
+  {
+    "id": "outils-reutilisation-bnf",
+    "label": "Outils & réutilisation BnF",
+    "description": "Découvrir les données de la BnF et préparer leur réutilisation.",
+    "icon": "⊞"
+  }
+]

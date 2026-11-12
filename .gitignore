@@ -1,0 +1,6 @@
+tests/*.png
+tests/*.pdf
+tests/*-report.json
+node_modules/
+*.log
+.DS_Store
