@@ -1,1 +1,5 @@
 @page{margin:18mm}body{background:white;color:black;font-size:11pt}.topline,header nav,.skip,.actions,.related,footer nav,#notice,.breadcrumb,.tags,button,.filters{display:none!important}header{padding:0;border:0}header .brand img{width:65px;height:65px}header .brand p{display:none}main{padding:0;max-width:none}.reading{max-width:none}h1,.reading h1{font-size:24pt}h2{break-after:avoid}.block{break-inside:avoid}.block.enUnePhrase,.block.attention,.block.aRetenir{background:white!important;border:1px solid #aaa!important;padding:12px!important}.sources a:after{content:' (' attr(href) ')';font-size:9pt;overflow-wrap:anywhere}footer{padding:15px 0;font-size:9pt}footer .footer-heading,footer small{display:none}a{color:black}.article-body section{margin:20px 0}
+
+.fiche-toc{display:none!important}.article-body .table-scroll{overflow:visible}.article-body table{min-width:0!important;font-size:9pt}.article-body pre{white-space:pre-wrap;overflow-wrap:anywhere}.article-body section{break-inside:auto}.article-body h3{break-after:avoid}
+
+.table-hint{display:none!important}

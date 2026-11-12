@@ -1,4 +1,14 @@
-# Vérification de la V1
+# Vérification du corpus enrichi — version 1.1
+
+Les tests de contenu contrôlent désormais l’enrichissement des 30 fiches et la conservation des métadonnées stables du corpus initial : identifiants, titres, catégories, niveaux principaux, dates et relations. Les textes ne sont plus comparés à l’identique puisque leur développement est demandé.
+
+Chaque fiche comporte les sections pédagogiques attendues, un schéma, une entrée courte, au maximum trois idées à retenir et une durée de lecture complète. La neutralité et la validité syntaxique des sources sont contrôlées.
+
+`tests/enriched.cjs` parcourt les 30 fiches sur grand et petit écran, vérifie les sommaires sans changement de route, les tableaux, les schémas, les blocs d’approfondissement, l’impression et l’édition de la nouvelle section. Le rendu limité Markdown est testé avec du texte contenant du HTML pour vérifier son échappement.
+
+Les tests de parcours existants restent applicables : recherche, filtres, tri, fiches, contributions et administration locale. Les captures du tableau des identifiants et du rendu d’impression ont été inspectées. Aucune certification d’accessibilité ni validation bibliographique institutionnelle n’est revendiquée par ces tests techniques.
+
+## Historique de validation de la V1.0
 
 Vérifiée le 12 novembre 2026 sur https://didierthebault-web.github.io/fiches-cub/.
 

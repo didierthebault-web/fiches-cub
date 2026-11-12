@@ -7,7 +7,7 @@ Dépôt : https://github.com/didierthebault-web/fiches-cub
 
 ## Objectifs et contenu
 
-30 fiches officielles, 8 catégories et 3 niveaux. Le corpus initial est conservé intégralement dans `data/fiches.json` : textes, identifiants, catégories, niveaux, relations éditoriales, sources, dates et publication. Il compte réellement **11 Découverte, 16 Pratique et 3 Approfondissement** : les chiffres illustratifs de la demande ne remplacent pas les niveaux fournis.
+30 fiches officielles, 8 catégories et 3 niveaux. Le corpus initial a été étoffé dans la version éditoriale 1.1, à la demande du CUB. Les identifiants, titres, catégories, niveaux principaux, dates et relations initiales sont conservés. Les 30 fiches comportent une explication courte, des exemples, un schéma, une méthode, les confusions à éviter, un approfondissement et une observation pratique. Les deux textes détaillés transmis par le CUB ont servi de références pour les fiches « Une donnée bibliographique » et « ISBN, ISSN, ARK, ISNI, VIAF ». Les versions antérieures restent disponibles dans l’historique Git. Il compte réellement **11 Découverte, 16 Pratique et 3 Approfondissement** : les chiffres illustratifs de la demande ne remplacent pas les niveaux fournis.
 
 Recherche plein texte locale, filtres combinables, tri, navigation par catégorie, fiches liées, impression PDF depuis le navigateur, contributions à copier et administration locale. Aucun framework ni bibliothèque réseau, aucun backend, aucun compte, aucun tracker.
 
@@ -28,6 +28,7 @@ Ouvrir http://127.0.0.1:8793/. Un serveur HTTP est nécessaire pour charger les 
 * `404.html` : page introuvable GitHub Pages.
 * `about.html`, `fiche.html` : points d’entrée complémentaires.
 * `js/core.js` : rendu partagé, validation éditoriale, utilitaires sûrs.
+* `js/markdown.js` : rendu documentaire limité et échappé (paragraphes, titres internes, listes, citations, code et tableaux).
 * `js/app.js` : accueil, catalogue, recherche, filtres, fiches, pages et contributions.
 * `js/admin.js` : édition locale, validation, import, export, aperçu.
 * `css/main.css`, `admin.css`, `print.css` : présentation responsive et impression.
@@ -35,14 +36,14 @@ Ouvrir http://127.0.0.1:8793/. Un serveur HTTP est nécessaire pour charger les 
 * `data/categories.json` : référentiel des huit catégories, descriptions et icônes.
 * `data/tags.json` : vocabulaire contrôlé initial.
 * `data/config.json` : termes de neutralité et outils configurables.
-* `data/corpus-editorial.md` : document source de relecture, conservé en référence.
+* `data/corpus-editorial.md` : version lisible du corpus enrichi pour relecture éditoriale.
 * `assets/logo/` : logos officiels récupérés sur lecub.fr.
 
 ## Modèle des fiches
 
 Chaque fiche possède `id`, `title`, `category`, `level`, `levels`, `readingTime`, `contentType`, `tags`, `summary`, `sections`, `related`, `sources`, `firstPublished`, `lastChecked`, `status` et `published`.
 
-Les sections conditionnelles sont : `enUnePhrase`, `en2Minutes`, `exempleConcret`, `schema`, `aRetenir` (tableau, trois éléments maximum), `voirConcretement`, `attention`, `approfondir`, `pourAllerPlusLoin`. Les autres sections existantes restent conservées. `sources` contient des objets `{organization,title,url}`. `related` contient des identifiants éditorialement choisis. `tools` accepte des objets `{id,title,description,url}` ou des identifiants de `config.tools`.
+Les sections conditionnelles sont : `enUnePhrase`, `en2Minutes`, `exempleConcret`, `schema`, `aRetenir` (tableau, trois éléments maximum), `voirConcretement`, `voirComment`, `attention`, `approfondir`, `pourAllerPlusLoin`. Les autres sections existantes restent conservées. `sources` contient des objets `{organization,title,url}`. `related` contient des identifiants éditorialement choisis. `tools` accepte des objets `{id,title,description,url}` ou des identifiants de `config.tools`.
 
 Le corpus initial utilise le type `fiche-documentaire`. L’éditeur permet d’introduire d’autres types : notion, standard, protocole, identifiant, outil, méthode. Aucun reclassement éditorial arbitraire des 30 fiches n’est effectué.
 
@@ -96,7 +97,7 @@ npm test
 node tests/content.cjs "chemin/vers/le/corpus-original.json"
 ```
 
-Le deuxième contrôle compare intégralement le JSON initial. Pour les tests navigateur, installer Playwright dans l’environnement de test et définir `CUB_PLAYWRIGHT` vers son module, démarrer le serveur puis lancer `node tests/browser.cjs`. Pour la production, définir `CUB_BASE=https://didierthebault-web.github.io/fiches-cub/`.
+Le deuxième contrôle vérifie la conservation des métadonnées stables et des relations du corpus initial, ainsi que l’enrichissement réel de chaque fiche. Les durées affichées correspondent à la lecture complète, estimée à 200 mots par minute ; le bloc « En 2 minutes » constitue l’entrée courte. Pour les tests navigateur, installer Playwright dans l’environnement de test et définir `CUB_PLAYWRIGHT` vers son module, démarrer le serveur puis lancer `node tests/browser.cjs`. Pour la production, définir `CUB_BASE=https://didierthebault-web.github.io/fiches-cub/`.
 
 Les tests couvrent le corpus, les liens internes, la neutralité, la recherche sans accents/casse, les filtres, le tri, les routes, les contributions, l’impression, les écrans mobile/desktop, l’édition locale, la persistance, la prévisualisation, l’import/export et les erreurs JavaScript. Les captures et PDF de test sont générés localement et exclus du dépôt.
 
@@ -108,4 +109,4 @@ HTML sémantique, langue française, lien d’évitement, focus clavier visible,
 
 Contenus : **CC BY 4.0**, sauf mention contraire. Citer le CUB, le titre, le lien, la licence et les adaptations. Les logos et ressources externes conservent leurs droits respectifs. Les textes des sources sont restitués tels que fournis ; les liens sont validés syntaxiquement, leur disponibilité distante n’est pas garantie.
 
-Pas de comptes, favoris, quiz, commentaires, IA, recherche sémantique, API publique, backend ni publication automatique depuis le navigateur. L’édition utilise une mise en forme limitée et sûre pour « En 2 minutes » : paragraphes, **gras**, *italique* et listes. Le HTML actif est exclu. Les métadonnées SEO changent côté client ; les robots qui n’exécutent pas JavaScript ne voient que les métadonnées générales. Le partage des liens par hash reste stable. Les navigateurs modernes sont nécessaires.
+Pas de comptes, favoris, quiz, commentaires, IA, recherche sémantique, API publique, backend ni publication automatique depuis le navigateur. L’édition utilise une mise en forme documentaire limitée et sûre dans les sections textuelles : paragraphes, **gras**, *italique*, titres internes `###`, listes, citations, blocs de code et tableaux. Le HTML actif est exclu. Le sommaire interne ne modifie pas la route stable de la fiche. Les métadonnées SEO changent côté client ; les robots qui n’exécutent pas JavaScript ne voient que les métadonnées générales. Le partage des liens par hash reste stable. Les navigateurs modernes sont nécessaires.
