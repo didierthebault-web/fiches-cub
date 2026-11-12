@@ -2,7 +2,7 @@ export const escapeHTML = (v='') => String(v ?? '').replace(/[&<>"']/g,c=>({'&':
 export const norm = v => String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,' ').replace(/\bapis\b/g,'api');
 export const slug = v => norm(v).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 export const date = v => v ? new Date(v+'T12:00:00').toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}) : 'Non renseignée';
-export const level = id => ({decouverte:'● Découverte',pratique:'●● Pratique',approfondissement:'●●● Approfondissement'}[id] || id);
+export const level = id => ({decouverte:'● Découverte',pratique:'●● Pratique',approfondissement:'●●● Approfondissement'}[id] || 'Niveau non renseigné');
 export const safeURL = value => {try {let u=new URL(value);return ['https:','http:'].includes(u.protocol) ? u.href : null;}catch{return null;}};
 export const sectionNames = {enUnePhrase:'En une phrase',en2Minutes:'En 2 minutes',exempleConcret:'Exemple concret',schema:'Schéma',aRetenir:'À retenir',voirConcretement:'Voir concrètement',attention:'Attention à ne pas confondre',approfondir:'Approfondissement',pourAllerPlusLoin:'Pour aller plus loin'};
 export async function loadData(){const paths=['fiches','categories','tags','config'];const all=await Promise.all(paths.map(async p=>{const r=await fetch(`data/${p}.json`);if(!r.ok)throw Error(`Chargement impossible : ${p}`);return r.json();}));return {corpus:all[0],categories:all[1],tags:all[2],config:all[3]};}
